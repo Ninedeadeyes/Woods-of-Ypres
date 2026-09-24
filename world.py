@@ -427,7 +427,7 @@ class BossTile(MapTile):
             print ("You break down on the floor knowing you cannot do this again..")
             input(".....")
             print("You notice an old man with a pipe sitting in a chair ")
-            print("beside a pile of mangled bodies")
+            print("beside the pile of mangled bodies")
             input(".....")
             print("The old man speaks 'No one truly escapes these woods ")
             print("without a clear conscious")
@@ -451,7 +451,9 @@ class BossTile(MapTile):
             input(".....")
             print ("Until silence")
             input(".....")
-            print ("You start to cry uncontrollably feeling only the deepest of guilt and regret")
+            input("...")
+            input(".")
+            print ("You cry uncontrollably feeling only the deepest of guilt and regret")
             input(".....")
             print ("The old man speaks again ' There, there.. Old Man Kwong will take care of you'")
             input(".....")
@@ -488,6 +490,7 @@ class BossTile(MapTile):
             print("Hp:{}".format(player.hp))
             print("Mark of the Beast {} out of 6 ".format(player.mark))
             print("Special thanks to Louise Shaw for proof reading ")
+            print("Music, programming, game design / story by Tommy Kwong")
             print("Ascii by jg and jgs"  )
             print("""
             
